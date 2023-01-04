@@ -11,6 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
 	</head>
 	<body class="is-preload">
 
@@ -52,20 +58,19 @@
 								<h2>Mega Ramp Car Stunt</h2>
 							</header>
 							
-							<a href="#" class="image main"><img src="images/CarStunt.jpg" alt="" /></a>
+							<a style="cursor: pointer;" class="image main"><img src="images/CarStunt.jpg" data-toggle="modal" data-target="#CarStuntModal"  alt="" /></a>
 							<p>A Car racing game where you can choose to play against a Ai opponent, jump throught hurdles to reach your destination or you can choose to play the runner mode of the game which is a hypercasual style runner game that is never ending. A score system is also present the displays the players style which changes according to how well you drive ranging form rank D to S. The color of the rank changes as you move up and the rank also moves slightly with the music intensity. Developed from scratch.</p>
 							<ul class="actions special">
 								<li><a href="https://play.google.com/store/apps/details?id=com.gb.carstunts" class="button large">Check It Out</a></li>
 							</ul>
 						</article>
-
 						<!-- Posts  -->
 						<section class="posts">
 							<article>
 								<header>
 									<h2>The Real Vegas Gangster</h2>
 								</header>
-								<a href="#" class="image fit"><img src="images/Vegas.jpg" alt="" /></a>
+								<a style="cursor: pointer;" class="image fit"><img src="images/Vegas.jpg" data-toggle="modal" data-target="#VegasModal" alt="" /></a>
 								<p>A open world Action adventure game where the player is free to explore the city and do as the player wishes . The player has a vide range of weapons that he/she unlocks through playing the story ranging from a pistol to a RPG. The pedestrians will run away as soon as they hear gun fire and if you shoot a car it will speed up and even run you over. Developed from scratch</p>
 								<ul class="actions special">
 									<li><a href="https://play.google.com/store/apps/details?id=com.gb.gta.real.vegas.gangster" class="button">Check It Out</a></li>
@@ -75,7 +80,7 @@
 								<header>
 									<h2>Grand Armed Robbery Heist</h2>
 								</header>
-								<a href="#" class="image fit"><img src="images/Grand Armed Robbery Heist City.jpg" alt="" /></a>
+								<a style="cursor: pointer;" class="image fit"><img src="images/Grand Armed Robbery Heist City.jpg" data-toggle="modal" data-target="#HeistModal" alt="" /></a>
 								<p>A level based shooting game where the player pushes through waves of AI enemies to reach his/her destintion. The player also has a special ability to slowdown time for a certain amount of time for his/her surroundings. Implemented the max payne bullet time feature, final kill cam and the overall finished product.</p>
 								<ul class="actions special">
 									<li><a href="https://play.google.com/store/apps/details?id=com.gb.crimecity.shadowgangster.theftstory" class="button">Check It Out</a></li>
@@ -85,7 +90,7 @@
 								<header>
 									<h2>Russian Clown Gangster</h2>
 								</header>
-								<a href="#" class="image fit"><img src="images/Joker.jpg" alt="" /></a>
+								<a style="cursor: pointer;" class="image fit"><img src="images/Joker.jpg" data-toggle="modal" data-target="#JokerModalModal" alt="" /></a>
 								<p>A level based shooting game where the player free roams the city causing damage to public property, terrorize pedestrians and steal vehicles and use them as his/her own. The pedestrians will run away as soon as they hear gun fire and if you shoot a car it will speed up and even run you over. Developed from scratch</p>
 								<ul class="actions special">
 									<li><a href="https://play.google.com/store/apps/details?id=com.gb.russainclown.grandtheftrobbery" class="button">Check It Out</a></li>
@@ -95,7 +100,7 @@
 								<header>
 									<h2>Mega Ramp Bus Stunt</h2>
 								</header>
-								<a href="#" class="image fit"><img src="images/BusStunt.jpg" alt="" /></a>
+								<a style="cursor: pointer;" class="image fit"><img src="images/BusStunt.jpg" data-toggle="modal" data-target="#BusStuntModalModal" alt="" /></a>
 								<p>Face off against an AI opponet in a race or jump throught hurdles to reach your destination. The weather of the game is dynamic and will change at random from either a sunny day to raining cats and dogs. Developed from scratch.</p>
 								<ul class="actions special">
 									<li><a href="https://play.google.com/store/apps/details?id=com.gb.carraces.stunts.bussimulator" class="button">Check It Out</a></li>
@@ -113,7 +118,7 @@
 						<section class="split contact">
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">hashaam@live.com</a></p>
+								<p><a>hashaam@live.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
@@ -141,5 +146,141 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			
+			
+			<!-- <div class="container"> -->
+				<!-- <h2>Modal Example</h2> -->
+				<!-- Trigger the modal with a button -->
+				<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+			  
+				<!-- Modal -->
+				<div class="modal fade" id="CarStuntModal" role="dialog">
+				  <div class="modal-dialog">
+				  
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+						<!-- <h4 class="modal-title">Modal Heaer</h4> -->
+					  </div>
+					  <div class="modal-body">
+						<video id="myVideo" width="560" height="240" controls >
+							<source src="D:\Unity Projects\HBL Agile\Assets\StreamingAssets\HBLSplashScreen.mp4" type="video/mp4">
+						</video>
+					  </div>
+					  <div class="modal-footer">
+						<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+					  </div>
+					</div>
+					
+				  </div>
+				</div>
+
+				<div class="modal fade" id="VegasModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+						  <!-- <h4 class="modal-title">Modal Heaer</h4> -->
+						</div>
+						<div class="modal-body">
+						  <video id="myVideo" width="560" height="240" controls >
+							  <source src="D:\Unity Projects\HBL Agile\Assets\StreamingAssets\HBLSplashScreen.mp4" type="video/mp4">
+						  </video>
+						</div>
+						<div class="modal-footer">
+						  <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+				  
+				  <div class="modal fade" id="HeistModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+						  <!-- <h4 class="modal-title">Modal Heaer</h4> -->
+						</div>
+						<div class="modal-body">
+						  <video id="myVideo" width="560" height="240" controls >
+							  <source src="D:\Unity Projects\HBL Agile\Assets\StreamingAssets\HBLSplashScreen.mp4" type="video/mp4">
+						  </video>
+						</div>
+						<div class="modal-footer">
+						  <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+				  <div class="modal fade" id="JokerModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+						  <!-- <h4 class="modal-title">Modal Heaer</h4> -->
+						</div>
+						<div class="modal-body">
+						  <video id="myVideo" width="560" height="240" controls >
+							  <source src="D:\Unity Projects\HBL Agile\Assets\StreamingAssets\HBLSplashScreen.mp4" type="video/mp4">
+						  </video>
+						</div>
+						<div class="modal-footer">
+						  <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+				  <div class="modal fade" id="BusStuntModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+						  <!-- <h4 class="modal-title">Modal Heaer</h4> -->
+						</div>
+						<div class="modal-body">
+						  <video id="myVideo" width="560" height="240" controls >
+							  <source src="D:\Unity Projects\HBL Agile\Assets\StreamingAssets\HBLSplashScreen.mp4" type="video/mp4">
+						  </video>
+						</div>
+						<div class="modal-footer">
+						  <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+				
+			  <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</body>
+
 </html>
