@@ -256,3 +256,27 @@
 		}
 
 })(jQuery);
+
+$( document ).ready(function() {
+	$(".modal-header .close").on('click', function(event){
+		 //$('video').get(0).pause();
+		 $('video').each(function() {
+			$(this).get(0).pause();
+		});
+	});
+	
+	$(".modal").on('click', function(event){
+		 //$('video').get(0).pause();
+		 $('video').each(function() {
+			$(this).get(0).pause();
+		});
+	});
+	
+	
+	
+	$(".image img").on('click', function(event){
+		var id = $(this).attr('data-target');
+		$(id+' .modal-body video').get(0).play();
+		$(id+' .modal-body video')[0].currentTime = 0;
+	});
+});
