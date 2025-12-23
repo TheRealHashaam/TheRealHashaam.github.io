@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Hashaam Shahzad -  Game Developer</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" type="image/x-icon" href="img/hand.png">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#talk">Let's Talk</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="banner">
+			<div class="container">
+				<div class="overlay">
+					<div class="hi">
+						<img src="img/hand.png">
+						Hi i'm
+					</div>
+					<h1>Hashaam <br />Shahzad</h1>
+					<div class="job-title">Game developer</div>
+					
+					<div class="two-col">
+						<div class="d-flex">
+							<div class="social">
+								<a href="https://github.com/TheRealHashaam " target="_blank"><img src="img/1.png"></a>
+								
+								<a href="https://www.linkedin.com/in/hashaam-shahzad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="img/4.png"></a>
+							</div>
+							<div>
+								<a href="https://drive.google.com/file/d/1PsfQwrs8tOmeHZ_TOirMByC48ehe-Kwt/view?usp=drivesdk" target="_blank" class="btn">Download CV <img src="img/down.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="section bg">
+			<div class="text-center rel fs-0">
+				<a href="#work"><img src="img/godown.png" class="toparrow" /></a>
+			</div>
+			<div class="container-two">
+				<div>
+					<h2>Hi, I’m Hashaam Shahzad,</h2>
+					<p>a passionate game developer <br />dedicated to crafting engaging and <br />immersive gaming experiences.</p>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="section bg2" id="work">
+			<div class="container-two">
+				<div class="text-line">
+					<span>Check out my recent works!</span>
+				</div>
+				
+				
+				<div class="project-slider">
+
+					<div class="slide active" style="background-image:url(img/p1.png)">
+						<div class="three-col">
+							<div></div>
+							<div class="hide-mob"></div>
+							<div class="btncenter"><button class="open-popup"><img src="img/go.png"></button></div>
+							
+						</div>	
+						<!-- POPUP FOR THIS SLIDE -->
+						<div class="popup">
+							<button class="close">✕</button>
+
+							<div class="popup-left">
+								<h2>Project Dragon <span class="light">(2024)</span></h2>
+								<div class="project-info">
+									<p><b>Project:</b> <span class="light">Computer game</span></p>
+									<p><b>Role:</b> <span class="light">Level Design</span></p>
+								</div>
+								<p>
+									In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+								</p>
+							</div>
+
+							<div class="popup-right">
+								<div class="inner-right">
+									<img src="img/pd1.png">
+									<img src="img/pd2.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="slide" style="background-image:url(img/p1.png)">
+						<div class="three-col">
+							<div></div>
+							<div></div>
+							<div class="btncenter"><button class="open-popup"><img src="img/go.png"></button></div>
+							
+						</div>	
+						<!-- POPUP FOR THIS SLIDE -->
+						<div class="popup">
+							<button class="close">✕</button>
+
+							<div class="popup-left">
+								<h2>Project Dragon <span class="light">(2024)</span></h2>
+								<div class="project-info">
+									<p><b>Project:</b> <span class="light">Computer game</span></p>
+									<p><b>Role:</b> <span class="light">Level Design</span></p>
+								</div>
+								<p>
+									In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+								</p>
+							</div>
+
+							<div class="popup-right">
+								<div class="inner-right">
+									<img src="img/pd1.png">
+									<img src="img/pd2.png">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+
+					<!-- bottom-left navigation -->
+					<div class="slider-nav">
+						<button id="prev">◀</button>
+						<button id="next">▶</button>
+					</div>
+
+				</div>
+				
+				<div class="two-col mt-30">
+					<div>
+						<h2 class="mt-0">Project Dragon <span class="light">(2024)</span></h2>
+						<div class="project-info">
+							<p><b>Project:</b> <span class="light">Computer game</span></p>
+							<p><b>Role:</b> <span class="light">Level Design</span></p>
+						</div>
+					</div>
+					<div>
+						<p class="mt-0">
+							In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+						</p>
+					</div>
+				</div>
+				
+				<!--Single Project-->
+				<div class="mt-60">
+					<img src="img/p2.png" class="full">
+				</div>
+				<div class="two-col mt-30">
+					<div>
+						<h2 class="mt-0">Project Dragon <span class="light">(2024)</span></h2>
+						<div class="project-info">
+							<p><b>Project:</b> <span class="light">Computer game</span></p>
+							<p><b>Role:</b> <span class="light">Level Design</span></p>
+						</div>
+					</div>
+					<div>
+						<p class="mt-0">
+							In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+						</p>
+					</div>
+				</div>
+				
+				<!--Single Project-->
+				<div class="mt-60">
+					<img src="img/p3.png" class="full">
+				</div>
+				<div class="two-col mt-30">
+					<div>
+						<h2 class="mt-0">Project Dragon <span class="light">(2024)</span></h2>
+						<div class="project-info">
+							<p><b>Project:</b> <span class="light">Computer game</span></p>
+							<p><b>Role:</b> <span class="light">Level Design</span></p>
+						</div>
+					</div>
+					<div>
+						<p class="mt-0">
+							In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+						</p>
+					</div>
+				</div>
+				
+				<!--Single Project-->
+				<div class="mt-60">
+					<img src="img/p4.png" class="full">
+				</div>
+				<div class="two-col mt-30">
+					<div>
+						<h2 class="mt-0">Project Dragon <span class="light">(2024)</span></h2>
+						<div class="project-info">
+							<p><b>Project:</b> <span class="light">Computer game</span></p>
+							<p><b>Role:</b> <span class="light">Level Design</span></p>
+						</div>
+					</div>
+					<div>
+						<p class="mt-0">
+							In Project Dragon, the world is meticulously crafted to provide players with an engaging and immersive experience. As a top-down game, the level design emphasizes strategic exploration and tactical gameplay, allowing players to navigate through diverse environments filled with challenges and secrets.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="section" id="talk">
+			<div class="container-two">
+				<div class="text-line">
+					<span>Let’s talk about project</span>
+				</div>
+				
+				<div class="bottom-flex">
+					<div>
+						<div class="email">	
+							<a href="mailto:hashaam@live.com">hashaam@live.com</a> 
+							<img src="img/had.png">
+						</div>
+						<p>Are You Interested in a Long-Term Relationship?</p>
+						<div class="d-flex mt-0">
+							<div class="social">
+								<a href="https://github.com/TheRealHashaam " target="_blank"><img src="img/1.png"></a>
+								
+								<a href="https://www.linkedin.com/in/hashaam-shahzad?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app" target="_blank"><img src="img/4.png"></a>
+							</div>
+							<div>
+								<a href="https://drive.google.com/file/d/1PsfQwrs8tOmeHZ_TOirMByC48ehe-Kwt/view?usp=drivesdk" target="_blank" class="btn">Download CV <img src="img/down.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="text-right">
+						<img src="img/avatar.png" class="avatar">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="name">
+			<img src="img/name.png" class="full">
+		</div>
+		
+		<script>
+			const slides = document.querySelectorAll('.slide');
+			let index = 0;
+
+			function showSlide(i) {
+				slides.forEach(s => s.classList.remove('active'));
+				slides[i].classList.add('active');
+			}
+
+			document.getElementById('next').onclick = () => {
+				index = (index + 1) % slides.length;
+				showSlide(index);
+			};
+
+			document.getElementById('prev').onclick = () => {
+				index = (index - 1 + slides.length) % slides.length;
+				showSlide(index);
+			};
+
+			// popup logic (per slide)
+			slides.forEach(slide => {
+				const open = slide.querySelector('.open-popup');
+				const popup = slide.querySelector('.popup');
+				const close = slide.querySelector('.close');
+
+				open.onclick = () => popup.classList.add('active');
+				close.onclick = () => popup.classList.remove('active');
+			});
+
+
+			</script>
+			<script>
+			const slides2 = document.querySelectorAll('.slide');
+			const sliderNav = document.querySelector('.slider-nav');
+
+			slides2.forEach(slide => {
+				const open = slide.querySelector('.open-popup');
+				const popup = slide.querySelector('.popup');
+				const close = slide.querySelector('.close');
+
+				if (open && popup) {
+					open.addEventListener('click', () => {
+						popup.classList.add('active');
+						if (sliderNav) sliderNav.style.display = 'none';
+					});
+				}
+
+				if (close && popup) {
+					close.addEventListener('click', () => {
+						popup.classList.remove('active');
+						if (sliderNav) sliderNav.style.display = '';
+					});
+				}
+			});
+
+			</script>
+	</body>
+</html>
