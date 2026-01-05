@@ -110,14 +110,11 @@
 
 							<div class="popup-right">
 								<div class="inner-right">
-									<!--<video width="320" height="240" poster="img/pd1.png" controls>
-									  <source src="videos/movie.mp4" type="video/mp4">
-									  <source src="video/movie.ogg" type="video/ogg">
-									  Your browser does not support the video tag.
-									</video>-->
-									
-									
-									
+									<!-- video 1-->
+									<a href="javascript:void(0)" class="open-video" data-video="videos/megarampcar stuntfinal.mp4">
+										<img src="img/pd1.png">
+									</a>
+
 									<img src="img/pd2.png">
 								</div>
 							</div>
@@ -178,11 +175,10 @@
 
 								<div class="popup-right">
 									<div class="inner-right">
-										<!--<video width="320" height="240" poster="img/pd1.png" controls>
-										  <source src="videos/movie.mp4" type="video/mp4">
-										  <source src="video/movie.ogg" type="video/ogg">
-										  Your browser does not support the video tag.
-										</video>-->
+										<!-- video 2-->
+										<a href="javascript:void(0)" class="open-video" data-video="videos/megarampcar stuntfinal.mp4">
+											<img src="img/pd1.png">
+										</a>
 										<img src="img/pd2.png">
 									</div>
 								</div>
@@ -242,11 +238,10 @@
 
 								<div class="popup-right">
 									<div class="inner-right">
-										<!--<video width="320" height="240" poster="img/pd1.png" controls>
-										  <source src="videos/movie.mp4" type="video/mp4">
-										  <source src="video/movie.ogg" type="video/ogg">
-										  Your browser does not support the video tag.
-										</video>-->
+										<!-- video 3-->
+										<a href="javascript:void(0)" class="open-video" data-video="videos/megarampcar stuntfinal.mp4">
+											<img src="img/pd1.png">
+										</a>
 										<img src="img/pd2.png">
 									</div>
 								</div>
@@ -306,13 +301,10 @@
 
 								<div class="popup-right">
 									<div class="inner-right">
-										<!--<video width="320" height="240" poster="img/pd1.png" controls>
-										  <source src="videos/movie.mp4" type="video/mp4">
-										  <source src="video/movie.ogg" type="video/ogg">
-										  Your browser does not support the video tag.
-										</video>-->
-										
-										<@
+										<!-- video 4-->
+										<a href="javascript:void(0)" class="open-video" data-video="videos/megarampcar stuntfinal.mp4">
+											<img src="img/pd1.png">
+										</a>
 										<img src="img/pd2.png">
 									</div>
 								</div>
@@ -372,6 +364,44 @@
 			<img src="img/name.png" class="full">
 		</div>
 		
+		
+		<div class="videopopup" id="videopopup">
+			<video id="popupVideo" controls>
+				<source src="" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		
+		
+		<script>
+document.querySelectorAll('.open-video').forEach(el => {
+    el.addEventListener('click', function () {
+        const popup = document.querySelector('.videopopup');
+        const video = popup.querySelector('video');
+        const source = video.querySelector('source');
+
+        source.src = this.getAttribute('data-video');
+        video.load();
+
+        popup.style.display = 'flex';
+        video.play();
+    });
+});
+
+document.querySelector('.videopopup').addEventListener('click', function (e) {
+    const video = this.querySelector('video');
+    const source = video.querySelector('source');
+
+    if (e.target === this) {
+        video.pause();
+        video.currentTime = 0;
+        source.src = '';
+        this.style.display = 'none';
+    }
+});
+</script>
+
+
 		<script>
 			const slides = document.querySelectorAll('.slide');
 			let index = 0;
