@@ -1,0 +1,32 @@
+<article>
+				<header>
+								<h2>Mega Ramp Bus Stunt</h2>
+				</header>
+				<a style="cursor: pointer;" class="image fit"><img src="images/BusStunt.jpg" data-toggle="modal" data-target="#BusStuntModal" alt="" /></a>
+				<p style="font-size:150%;">Face off against an AI opponet in a race or jump throught hurdles to reach your destination. The weather of the game is dynamic and will change at random from either a sunny day to raining cats and dogs. Developed from scratch.</p>
+				<ul class="actions special">
+								<li><a style="font-size:150%;" href="https://play.google.com/store/apps/details?id=com.gb.carraces.stunts.bussimulator" class="button">Check It Out</a></li>
+				</ul>
+</article> 
+
+<div class="modal fade" id="BusStuntModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+				  <!-- <h4 class="modal-title">Modal Heaer</h4> -->
+				</div>
+				<div class="modal-body">
+				  <video id="myVideo" width="560" height="240" controls >
+					  <source src="videos\MEGA RAMP BUS STUNT final .mp4" type="video/mp4">
+				  </video>
+				</div>
+				<div class="modal-footer">
+				  <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+				</div>
+			  </div>
+			  
+			</div>
+ </div>
